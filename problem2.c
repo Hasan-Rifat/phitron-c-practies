@@ -13,5 +13,6 @@ int main()
     {
         s = (n / 5) + 1;
     }
+    printf("%d\n", s);
     return 0;
 }
