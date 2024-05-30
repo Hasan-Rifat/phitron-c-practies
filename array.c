@@ -3,6 +3,6 @@
 int main()
 {
     int arr[10];
-    // print
+    printf('%d', arr);
     return 0;
 }
