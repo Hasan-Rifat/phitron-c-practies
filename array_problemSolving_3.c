@@ -36,6 +36,6 @@ int main()
             }
         }
     }
-    printf("Even count = %d\n", ans);
+    // printf("Even count = %d\n", ans);
     return 0;
 }
