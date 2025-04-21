@@ -4,13 +4,21 @@ int main()
 
 {
 
-    int n;
-    scanf("%d", &n);
+    int t;
+    scanf("%d", &t);
 
-    for (; n != 0;)
+    for (int i = 1; i <= t; i++)
     {
-        printf("%d ", n % 10);
-        n /= 10;
+
+        int n;
+        scanf("%d", &n);
+
+          do
+        {
+            printf("%d ", n % 10);
+            n /= 10;
+        } while (n != 0);
+        printf("\n");
     }
 
     return 0;
